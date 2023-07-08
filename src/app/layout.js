@@ -11,31 +11,31 @@ export default function RootLayout({children}) {
 		<html lang='en'>
 			<body>
 				{children}
-				<footer class='footer'>
-					<ul class='footer__list'>
-						<li class='footer__item'>
-							<Link class='footer__link' href='/'>
+				<footer className='footer'>
+					<ul className='footer__list'>
+						<li className='footer__item'>
+							<Link className='footer__link' href='/'>
 								Помощь
 							</Link>
 						</li>
-						<li class='footer__item'>
-							<Link class='footer__link' href='/'>
+						<li className='footer__item'>
+							<Link className='footer__link' href='/'>
 								Обратная связь
 							</Link>
 						</li>
-						<li class='footer__item'>
-							<Link class='footer__link' href='/'>
+						<li className='footer__item'>
+							<Link className='footer__link' href='/'>
 								Разработчикам
 							</Link>
 						</li>
-						<li class='footer__item'>
-							<Link class='footer__link' href='/'>
+						<li className='footer__item'>
+							<Link className='footer__link' href='/'>
 								Условия использования
 							</Link>
 						</li>
 					</ul>
 
-					<div class='footer__copyright'>© 1997–2023 ООО «Яндекс»</div>
+					<div className='footer__copyright'>© 1997–2023 ООО «Яндекс»</div>
 				</footer>
 			</body>
 		</html>
