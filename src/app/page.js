@@ -162,7 +162,7 @@ const TABS = {
 	},
 }
 for (let i = 0; i < 6; ++i) {
-	TABS.all.items = [...TABS.all.items, ...TABS.all.items]
+	TABS.all.items = [].concat(TABS.all.items, TABS.all.items)
 }
 const TABS_KEYS = Object.keys(TABS)
 function Main() {
